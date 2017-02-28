@@ -1,17 +1,17 @@
-name: emoji
+name: emoji-lc
 version: '0.3.0'
-summary: emoji
+summary: emoji-lc
 description: Find relevant emoji from text on the command line.
 
 grade: stable
 confinement: strict
 
 apps:
-  emoji:
+  emoji-lc:
     command: bin/emoj
     plugs: [network]
     
 parts:
-  emoji:
+  emoji-lc:
     plugin: nodejs
     source: .
