@@ -1,17 +1,17 @@
-name: emoji-lc
+name: emoji-lolachang
 version: '0.3.0'
-summary: emoji-lc
+summary: emoji
 description: Find relevant emoji from text on the command line.
 
 grade: stable
 confinement: strict
 
 apps:
-  emoji-lc:
+  emoji:
     command: bin/emoj
     plugs: [network]
     
 parts:
-  emoji-lc:
+  emoji:
     plugin: nodejs
     source: .
